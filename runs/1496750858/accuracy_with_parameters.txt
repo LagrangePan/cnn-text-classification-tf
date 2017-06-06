@@ -1,0 +1,18 @@
+Accuracy: 0.951245
+
+Parameters:
+ALLOW_SOFT_PLACEMENT=True
+BATCH_SIZE=64
+DEV_SAMPLE_PERCENTAGE=0.1
+DROPOUT_KEEP_PROB=0.5
+EARLY_STOPPING=10
+EMBEDDING_DIM=128
+FILTER_SIZES=3,4,5
+L2_REG_LAMBDA=3
+LOG_DEVICE_PLACEMENT=False
+MULTICHANNEL=True
+NEGATIVE_DATA_FILE=./data/data_processed/train/ctrip_reviews.neg
+NUM_EPOCHS=200
+NUM_FILTERS=128
+POSITIVE_DATA_FILE=./data/data_processed/train/ctrip_reviews.pos
+W2V_BINARY_FILE=./data/word2vec/reviews_vectors_50.bin

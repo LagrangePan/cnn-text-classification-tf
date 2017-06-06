@@ -1,5 +1,9 @@
 *.npy
-runs/
+runs/*
+!runs/best_model.p
+!runs/1496750858/
+runs/1496750858/summaries/
+data/word2vec/
 
 # Created by https://www.gitignore.io/api/python,ipythonnotebook
 
